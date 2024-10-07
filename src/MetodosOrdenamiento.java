@@ -173,7 +173,9 @@ public class MetodosOrdenamiento {
     }
 
     // Método de inserción con errores
-    // Error encontrado:
+    // Error encontrado: Error del tamano faltaba j--
+    //error encontrado: EL return cambiar a return arreglo;
+    //Error en el nombre al imprimir cambiar a inserccion
     public int[] insercionTercero(int[] arregloOriginal) {
 
         int[] arreglo = Arrays.copyOf(arregloOriginal, arregloOriginal.length);
@@ -190,4 +192,4 @@ public class MetodosOrdenamiento {
         return arreglo;
     }
 
-}
+}//fin
